@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* 字体颜色 */
+.white { color: #fff !important; }
+.red { color: #f93f3c !important; }
+.green { color: #00ab61 !important; }
+.blue { color: #108ee9 !important; }
+.cyano { color: #4cb0fe !important; }
+.fusco { color: #2e3137 !important; }
+.yell { color: #f9c201 !important; }
+.org { color: #eb6100 !important; }
+.ching { color: #51fafb !important; }
+.brown { color: #ebbc76 !important; }
+.black { color: #555 !important; }
+.gray { color: #666 !important; }
+.grays { color: #444 !important; }
+.gray1 { color: #777 !important; }
+.gray2 { color: #888 !important; }
+.gray3 { color: #999 !important; }
+.gray4 { color: #ababab !important; }
+.gray5 { color: #bbb !important; }
+.gray6 { color: #ddd !important; }
+/* 字体大小 */
+.fs_xx { font-size: 0.27rem !important; }
+.fs_xs { font-size: 0.33rem !important; }
+.fs_sss { font-size: 0.34rem !important; }
+.fs_ss { font-size: 0.38rem !important; }
+.fs_s { font-size: 0.4rem !important; }
+.fs_sm { font-size: 0.42rem !important; }
+.fs_m { font-size: 0.45rem !important; }
+.fs_ml { font-size: 0.48rem !important; }
+.fs_l { font-size: 0.5rem !important; }
+.fs_xl { font-size: 0.6rem !important; }
+
+.tex_left { text-align: left !important; }
+.tex_right { text-align: right !important; }
+
+.left { float: left !important; }
+.right { float: right !important; }
+
+.lnk-btn { display: block; width: 95%; margin: 20px auto; line-height: 0.725rem; padding: 5px 0; font-size: 0.435rem; text-decoration: none; background-color: #f0497d; color: #FFF; text-align: center; border-radius: 5px; }
+.lnk-btn.btn-disabled { background: #c1c1c1 !important; cursor: default !important; color: #fff !important; border-color: #c1c1c1 !important; }
+.lnk-btn-mini { padding: 0.175rem 0.225rem; font-size: 0.325rem; background-color: #f0497d; color: #FFF; border-radius: 3px; margin: 0 8px; cursor: pointer; }
+.lnk-btn-mini.btn-disabled { background: #c1c1c1 !important; cursor: default !important; color: #fff !important; border-color: #c1c1c1 !important; }
+.lnk-btn-mini:hover { color: #FFF; text-decoration: none; }
+
+.btn { display: inline-block; width: 100%; padding: 0px; line-height: 1rem; height: 1rem; *line-height: 1rem; vertical-align: middle; text-align: center; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #e6e7ec; cursor: pointer; }
+.btn:hover { text-decoration: none; background: #e6e7ec; border-color: #dadbe0; }
+.btn.disabled, .btn.disabled:hover { background: #e6e7ec; color: #a5a6aa; border-color: #dadbe0; cursor: default; }
+.btn-primary { background: #44b549; color: #ffffff; border-color: #44b549; }
+.btn-primary:hover { background: #2f9833; border-color: #2f9833; }
+
+/* 边界 */
+.mar_f1 { margin-left: 0.134rem !important; }
+.mar_f2 { margin-left: 0.267rem !important; }
+.mar_f3 { margin-left: 0.4rem !important; }
+.mar_f4 { margin-left: 0.534rem !important; }
+.mar_r1 { margin-right: 0.134rem !important; }
+.mar_r2 { margin-right: 0.267rem !important; }
+.mar_r3 { margin-right: 0.4rem !important; }
+.mar_r4 { margin-right: 0.534rem !important; }
+/* 填充 */
+.pad_tb1 { padding: 0.134rem 0 !important; }
+.pad_tb2 { padding: 0.267rem 0 !important; }
+.pad_tb3 { padding: 0.4rem 0 !important; }
+.pad_fr1 { padding: 0 0.135rem !important; }
+.pad_fr2 { padding: 0 0.267rem !important; }
+.pad_fr3 { padding: 0 0.4rem !important; }
+
+.coarse { font-weight: 600 !important; }
+img { width: 100%; vertical-align: middle; }
+
+/* 清除浮动 */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { zoom: 1; }
+/* end */
+
+.box-sizing { box-sizing: border-box; -moz-box-sizing: border-box; /* Firefox */-webkit-box-sizing: border-box; /* Safari */ }
+
+/* 去色 */
+.bleed { -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(10%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: gray; }
+
+.dark_bg { background: #2e3137 !important; color: #fff; }
+.violet_color { background: #2e3137 !important; color: #fff; }
+.white_color { background-color: #fff !important; }
+.fusco_color { background: #2e3137 !important; color: #fff; }
+
+.titleBox { background: #f0497d; padding: 0.125rem 0; text-align: center; color: #fff; font-size: 0.436rem; line-height: 0.6rem; height: 0.6rem; }
+
+/***** 弹框遮罩层 *****/
+.modal_mask, .modal-mask { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; border: 0; filter: alpha(opacity=50); opacity: 0.5; z-index: 101; }
+.bomb_box { position: fixed; left: 0; bottom: 0; overflow: hidden; z-index: 102; }
+
+/* 块显示/隐藏 */
+.con, .cons, .hides { display: none; }
+.reveal, .reveals { display: block; }
+
+/***** swiper翻滚样式 *****/
+.swiper-pagination { text-align: center; -webkit-transition: 300ms; -moz-transition: 300ms; -o-transition: 300ms; transition: 300ms; -webkit-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.swiper-container { margin: 0 auto; position: relative; overflow: hidden; z-index: 1; }
+.swiper-container-android .swiper-slide, .swiper-wrapper { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -o-transform: translate(0, 0); -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.swiper-wrapper { position: relative; width: 100%; z-index: 1; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; -o-transition-property: -o-transform; -ms-transition-property: -ms-transform; transition-property: transform; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }
+.swiper-slide { -webkit-flex-shrink: 0; -ms-flex: 0 0 auto; flex-shrink: 0; width: 100%; position: relative; }
+
+/* 更多 */
+.fl_note { text-align: center; line-height: 0.8rem; cursor: pointer; padding: 0.134rem 0; cursor: pointer; }
+
+.col-xs-left, .col-xs-right, .col-xs-all { position: relative; min-height: 1px; line-height: 0.445rem; padding-right: 15px; padding-left: 15px; float: left; box-sizing: border-box; }
+.col-xs-left, .col-xs-right { float: left; font-size: 0.325rem; }
+
+.col-xs-right { width: 66.66666667%; }
+.col-xs-left { width: 33.33333333% }
+
+.data-container { background: #fff; }
+.data-container.main dl { margin-top: 0; margin-bottom: 20px; }
+.data-container.main dl dd { padding: 12px 10px; border-bottom: solid 1px #dadada; line-height: 0.625rem; }
+.data-container.main dl dd.tips { background: #f0eff5; font-size: 0.325rem; color: #8c8c8c; padding: 0.225rem 0; }
+.data-container.main dl dd input[type='text'] { border: none; width: 100%; text-align: left; font-size: 0.325rem; }
+.data-container.main dl dd input[type='text']:read-only { color:#aaaaaa; }
+.data-container.main dl dd a { display: block; }
+.data-container.main dl dd a.btn-resend-code { float: right; margin-right: 0.325rem; }
+
+.title { color: #000; height: 25px; line-height: 25px; }
+.title img { height: 25px; width: auto; margin-right: 10px; }
+
+.row { margin: 0; }
+.row:before, .row:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.weui_dialog_confirm .weui_dialog .weui_dialog_bd { text-align: center; line-height: 0.635rem; padding: 0.225rem 0.325rem; }
+
+/********已绑定的快捷支付卡页面********/
+.bankcard { background-color: #FFF; color: #000; border: 1px solid #ddd; width: auto; height: auto; float: none; padding: 10px 15px; margin: 0 20px; margin-bottom: 8px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: 3px 3px 2px #ddd; -moz-box-shadow: 3px 3px 2px #ddd; -webkit-box-shadow: 3px 3px 2px #ddd; }
+.bankcard:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.bankcard .detail { color: #000; position: relative; width: 100%; }
+.bankcard .detail:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.bankcard .detail .bankname { margin-left: 5px; float: left; }
+.bankcard .detail .bankname p { font-size: 0.436rem; }
+.bankcard .detail .bankname span { font-size: 0.325rem; opacity: 0.7; }
+.bankcard .detail .btn-rm { position: absolute; right: 0; top: 50%; margin-top: -0.323rem; float: none; width: auto; }
+.ct-icon { -ms-background-size: 25px; background-size: 25px; width: 25px; height: 25px; display: inline-block; float: left; }
+.ct-icon-jytzckjpay { background-image: url(/pay/content/images/icon-quickpay-jyt.png); }
+.ct-icon-hrquickpay { background-image: url(/pay/content/images/hrpay.png); }
+
+/*******支付银行选择页面在*******/
+.fs_ss { font-size: 0.7rem !important; }
+ul.us-opt { width: 100%; margin-top: 1px; margin-left:2px; }
+ul.us-opt:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+ul.us-opt li { float:left; background-color: #fff; padding: 0.267rem !important; z-index: 0; margin: -1px 0 0 -1px; color: #666 !important; width: 50%; border-collapse: collapse; border: solid 1px #e1e1e1; box-sizing:border-box; position: relative; border-bottom: solid #dbd1ce 1px; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap; cursor: pointer; }
+ul.us-opt li.bank-item.bank-hide { display: inline-block; }
+ul.us-opt li.bank-item .bank-icon { padding-left: 0.55rem; background-repeat: no-repeat; background-position: left center; background-size: 0.45rem !important; background-position: 0 3px !important; line-height: 0.55rem; }
+ul.us-opt li.bank-item .chk-state { position: absolute; right: 0.125rem; top: 50%; margin-right: 15px; margin-top: -0.225rem; color: #ddd; font-size: 1.3rem; width: 0.45rem; height: 0.45rem; }
+ul.us-opt li.bank-item.bank-select { border-color: #139532; z-index: 1; }
+ul.us-opt li.bank-item.bank-select i.chk-state { background: url("/pay/content/images/banks/checked.png") no-repeat; background-size: 0.45rem; }
+ul.us-opt li.bank-item .bank-icon-icbc { background: url("/pay/content/images/banks/工商银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-ccb { background: url("/pay/content/images/banks/建设银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-abc { background: url("/pay/content/images/banks/农业银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-boc { background: url("/pay/content/images/banks/中国银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-cmb { background: url("/pay/content/images/banks/招商银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-bocm,
+ul.us-opt li.bank-item .bank-icon-bcom,
+ul.us-opt li.bank-item .bank-icon-bocom { background: url("/pay/content/images/banks/交通银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-gdb,
+ul.us-opt li.bank-item .bank-icon-cgb { background: url("/pay/content/images/banks/广发银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-psbc { background: url("/pay/content/images/banks/中国邮政_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-cncb,
+ul.us-opt li.bank-item .bank-icon-citic,
+ul.us-opt li.bank-item .bank-icon-ecitic  { background: url("/pay/content/images/banks/中信银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-cmbc { background: url("/pay/content/images/banks/民生银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-cebb, 
+ul.us-opt li.bank-item .bank-icon-ceb { background: url("/pay/content/images/banks/光大银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-hxb { background: url("/pay/content/images/banks/华夏银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-cib { background: url("/pay/content/images/banks/兴业银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-pab,
+ul.us-opt li.bank-item .bank-icon-pabb { background: url("/pay/content/images/banks/平安银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-spdb { background: url("/pay/content/images/banks/浦发银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-bos,
+ul.us-opt li.bank-item .bank-icon-bosc { background: url("/pay/content/images/banks/上海银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-bob { background: url("/pay/content/images/banks/北京银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-boj { background: url("/pay/content/images/banks/江苏银行_32.png") no-repeat; }
+ul.us-opt li.bank-item .bank-icon-bohc { background: url("/pay/content/images/banks/渤海银行_32.png") no-repeat }
+ul.us-opt li.bank-item .bank-icon-bjrcb { background: url("/pay/content/images/banks/北京农商银行_32.png") no-repeat }
+ul.us-opt li.bank-item .bank-icon-unionpay { background: url("/pay/content/images/banks/银联_32.png") no-repeat; }
