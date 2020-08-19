@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://blog.bizliker.com/sitemap.xml
+Sitemap: https://blog.bizliker.com/blog/sitemap.xml

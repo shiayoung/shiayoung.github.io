@@ -1,274 +1,274 @@
-<?xml-stylesheet type="text/xsl" href="https://blog.bizliker.com/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://blog.bizliker.com/blog/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.bizliker.com/post/2018/07/even-preview/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2018/07/even-preview/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/about/</loc>
+    <loc>https://blog.bizliker.com/blog/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/</loc>
+    <loc>https://blog.bizliker.com/blog/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/kafka/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/kafka/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/</loc>
+    <loc>https://blog.bizliker.com/blog/post/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/zookeeper/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/zookeeper/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2020/05/zookeeper_and_kafka_install_on_centos8/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2020/05/zookeeper_and_kafka_install_on_centos8/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
     <lastmod>2020-08-05T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/category-2/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/category-2/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/category-3/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/category-3/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/preview/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/preview/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/tag-3/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/tag-3/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/theme-preview/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/theme-preview/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/theme-preview/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/theme-preview/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2018/03/hidden-post/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2018/03/hidden-post/</loc>
     <lastmod>2018-03-08T22:01:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2017/08/english-preview/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2017/08/english-preview/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/english/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/english/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/tag-2/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/tag-2/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2017/08/chinese-preview/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2017/08/chinese-preview/</loc>
     <lastmod>2017-08-30T01:37:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/tag-1/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/tag-1/</loc>
     <lastmod>2017-08-30T01:37:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/%E4%B8%AD%E6%96%87/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/%E4%B8%AD%E6%96%87/</loc>
     <lastmod>2017-08-30T01:37:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/%E4%B8%AD%E6%96%87/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/%E4%B8%AD%E6%96%87/</loc>
     <lastmod>2017-08-30T01:37:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/golang/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/golang/</loc>
     <lastmod>2017-08-30T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/golang/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/golang/</loc>
     <lastmod>2017-08-30T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2017/08/net-conn-read-improve-in-golang/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2017/08/net-conn-read-improve-in-golang/</loc>
     <lastmod>2017-08-30T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2017-08-30T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2016/08/shortcodes/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2016/08/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/shortcodes/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/shortcodes/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2015/03/js-flowchart-diagrams/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2015/03/js-flowchart-diagrams/</loc>
     <lastmod>2015-03-04T21:57:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2015/03/js-sequence-diagrams/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2015/03/js-sequence-diagrams/</loc>
     <lastmod>2015-03-04T21:57:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/syntax-highlighting/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/syntax-highlighting/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/categories/syntax-highlighting/</loc>
+    <loc>https://blog.bizliker.com/blog/categories/syntax-highlighting/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/post/2011/08/syntax-highlighting/</loc>
+    <loc>https://blog.bizliker.com/blog/post/2011/08/syntax-highlighting/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.bizliker.com/tags/tag-5/</loc>
+    <loc>https://blog.bizliker.com/blog/tags/tag-5/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
