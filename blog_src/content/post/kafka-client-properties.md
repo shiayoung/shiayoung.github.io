@@ -1,3 +1,11 @@
+---
+title: "Kafka 客户端连接配置"
+date: "2020-05-11T20:00:00"
+draft: false
+tags: ["kafka"]
+categories: ["基础组件"]
+---
+
 ### acks 消息验证（消息发送成功的判断）
 
 - -1  Full ISR   leader & all follower 接收

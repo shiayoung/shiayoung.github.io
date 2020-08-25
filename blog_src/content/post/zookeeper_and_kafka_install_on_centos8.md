@@ -3,8 +3,8 @@ title: "Zookeeper 与 Kafka 集群搭建与配置"
 date: "2020-05-11T20:00:00"
 lastmod: "2020-08-05T20:00:00"
 draft: true
-tags: ["kafka", "消息队列", "zookeeper"]
-categories: ["消息队列"]
+tags: ["kafka", "基础组件", "zookeeper"]
+categories: ["基础组件"]
 ---
 
 > 本文涵盖 centos 8 环境下的 java jdk 安装、zookeeper 安装及配置、kafka 安装及配置

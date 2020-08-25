@@ -21,10 +21,11 @@ jobs:
           extended: true
 
       - name: Build
-        run: cd ./blog_src && hugo --minify --baseURL https://blog.bizliker.com
+        run: 
+          rm ./public -rf && cd ./blog_src && hugo --minify --baseURL https://blog.bizliker.com
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ../
+          publish_dir: ../public
