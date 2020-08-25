@@ -23,7 +23,7 @@ jobs:
       - name: Build
         run: 
           rm -rf node_modules/gh-pages/.cache
-          rm ./public -rf && cd ./blog_src && hugo --minify --baseURL https://blog.bizliker.com
+          rm ./public -rf && mkdir public && cd ./blog_src && hugo --minify --baseURL https://blog.bizliker.com
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
