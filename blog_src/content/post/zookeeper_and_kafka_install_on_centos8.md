@@ -2,7 +2,7 @@
 title: "Zookeeper 与 Kafka 集群搭建与配置"
 date: "2020-05-11T20:00:00"
 lastmod: "2020-08-05T20:00:00"
-draft: false
+draft: true
 tags: ["kafka", "消息队列", "zookeeper"]
 categories: ["消息队列"]
 ---
@@ -125,11 +125,24 @@ kafka-topics.sh --describe --zookeeper 192.168.140.81:2181 --topic test-topic
 
 kafka-console-producer.sh --bootstrap-server 192.168.140.81:9092 --topic test-topic
 
-kafka-console-consumer.sh --bootstrap-server 192.168.140.81:9092 --topic test-topic # --from-beginning
+kafka-console-consumer.sh --bootstrap-server 192.168.140.81:9092 --topic test-topic # --from-beginning [--group tester]
+
+1.x 新版本加入 consumer-group
+kafka-console-consumer.sh --bootstrap-server 192.168.140.81:9092 --topic test-topic --group tester
+
+0.x 低版本加入 consumer-group
+kafka-console-consumer.sh --bootstrap-server 192.168.140.81:9092 --topic test-topic --consumer-property group.id=tester
+
 
 kafka-consumer-groups --bootstrap-server localhost:9092 --describe --all-group
 
 kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group my-group
+
+## 查看指定 consumer group 中的成员
+kafka-consumer-groups.sh --bootstrap-server localhost:9093 --describe --group tester --members
+
+## 查看所有 consumer groups 中的成员
+kafka-consumer-groups.sh --bootstrap-server localhost:9093 --describe --all-groups --members
 ```
 
 ## zookeeper 相关操作

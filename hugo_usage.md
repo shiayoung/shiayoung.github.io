@@ -3,4 +3,4 @@
 
     # -d 表示发布目标文件夹
     # -b 表示站点根 URL
-    hugo -d ../blog -b https://blog.bizliker.com
+    hugo -d ../ -b https://blog.bizliker.com
