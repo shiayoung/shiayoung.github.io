@@ -25,13 +25,13 @@ jobs:
           rm ./public -rf
       
       - name: Build
-        run: 
-          cd ./blog_src && hugo --minify --baseURL https://blog.bizliker.com
+        run: |
+          mkdir public
+          cd ./blog_src
+          hugo --minify --baseURL https://blog.bizliker.com
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        run: 
-          mkdir public
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
