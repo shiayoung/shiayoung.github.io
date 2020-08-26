@@ -20,10 +20,19 @@ jobs:
           hugo-version: '0.74.3'
           extended: true
 
-      - name: Build
+      - name: Clear old public
         run: 
           rm -rf node_modules/gh-pages/.cache
-          rm ./public -rf && mkdir public && cd ./blog_src && hugo --minify --baseURL https://blog.bizliker.com
+          rm ./public -rf
+          echo "${ll ./public}"
+      
+      - name: Enter blog content source directory
+        run: 
+          cd ./blog_src
+
+      - name: Build
+        run: 
+          hugo --minify --baseURL https://blog.bizliker.com
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

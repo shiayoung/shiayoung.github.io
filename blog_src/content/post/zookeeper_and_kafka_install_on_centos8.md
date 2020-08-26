@@ -154,5 +154,8 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9093 --describe --all-grou
 ### 查看 broker 为 1 的 kafka 实例信息
     get /brokers/ids/1
 
+### 查看 topic 元信息（可以获取 broker leader 信息）
+    ls /brokers/topics/test-topic/partitions/0/state
+
 ## 参考
 [Kafka集群搭建与配置](https://www.jianshu.com/p/bdd9608df6b3)
