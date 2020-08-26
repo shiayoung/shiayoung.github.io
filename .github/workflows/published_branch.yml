@@ -21,10 +21,9 @@ jobs:
           extended: true
 
       - name: Clear old public
-        run: 
+        run: |
           rm -rf node_modules/gh-pages/.cache
           rm ./public -rf
-          echo "${ll ./public}"
       
       - name: Enter blog content source directory
         run: 
