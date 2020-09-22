@@ -6,7 +6,7 @@ menu: "main"
 weight: 50
 
 ---
-
+使用 github action 自动构建！
 Hugo is a static site engine written in Go.
 
 
